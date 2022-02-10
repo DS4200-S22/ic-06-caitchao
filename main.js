@@ -15,3 +15,9 @@ function button1Clicked() {
     let buttonDiv = document.getElementById("random_num");
     buttonDiv.innerHTML = random;
 }
+
+function button2Clicked() {
+    let circle = document.getElementById("circle");
+    circle.style.fill = "green";
+    console.log("clicked");
+}
