@@ -18,6 +18,6 @@ function button1Clicked() {
 
 function button2Clicked() {
     let circle = document.getElementById("circle");
-    circle.style.fill = "green";
+    circle.classList.toggle('colorChange')
     console.log("clicked");
 }

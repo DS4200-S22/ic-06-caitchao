@@ -8,6 +8,10 @@ body {
     align-content: auto;
 }
 
-#circle {
+.original {
     fill: #6EDBFF;
+}
+
+.colorChange {
+    fill: green;
 }
