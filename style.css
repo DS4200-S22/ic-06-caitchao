@@ -1,3 +1,13 @@
 body {
     font-family: arial;
 }
+
+#aligned {
+    display: flex;
+    justify-content: center;
+    align-content: auto;
+}
+
+#circle {
+    fill: #6EDBFF;
+}
